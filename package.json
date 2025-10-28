@@ -1,0 +1,25 @@
+{
+  "name": "lgp2345.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lgp2345/lgp2345.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/lgp2345/lgp2345.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgp2345/lgp2345.github.io.git"
+  },
+  "license": "ISC",
+  "author": "stig",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
